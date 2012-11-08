@@ -1,0 +1,1 @@
+More info can be seen here https://github.com/cloudfoundry/vcap. This repo includes a vagrantfile to install vcap. It also includes shell script to run too. Expects to be run on a pristine Ubuntu 10.04 VM.
