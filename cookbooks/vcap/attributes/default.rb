@@ -1,0 +1,1 @@
+default[:vcap][:domain] = "vcap.me"

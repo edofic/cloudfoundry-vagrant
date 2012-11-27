@@ -7,7 +7,7 @@ package "curl" do
 end
 
 execute "install vcap" do
-  command "curl -s -k -B https://raw.github.com/cloudfoundry/vcap/master/dev_setup/bin/vcap_dev_setup -D vcap.me | bash -s --"
+  command "curl -s -k -B https://raw.github.com/cloudfoundry/vcap/master/dev_setup/bin/vcap_dev_setup -D #{node[:vcap][:domain]} | bash -s --"
 end
 
 
